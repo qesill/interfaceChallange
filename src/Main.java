@@ -14,5 +14,11 @@ public class Main {
        4. W Main dodaj dwie zmienne typu Browser i przypisz do nich nowe instancje
           Chrome i Firefox, wywołaj na nich gotoPage() z dowolną stroną jako argument
          */
+
+        Browser chrome = new Chrome();
+        Browser firefox = new Firefox();
+        chrome.gotoPage("www.wikann.pl");
+        firefox.gotoPage("www.bhpszkolenia24.pl");
+
     }
 }
